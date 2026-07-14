@@ -196,7 +196,7 @@
         '<p>誤ったキーを押した場合は警告文が表示されます。正しいキーを押し直して、課題を続けてください。</p>' +
         '<p>分類したあと、次の言葉が表示されるまで、画面中央に十字マーク「＋」が表示されます。<br>' +
         '次の言葉が表示されたら、また素早く分類してください。</p>' +
-        '<p>課題は練習を入れて9ブロック行います。<br>説明を読み終えたら、Spaceキーで次へ進んでください。</p></div>' +
+        '<p>課題は練習を入れて6ブロック行います。<br>説明を読み終えたら、Spaceキーで次へ進んでください。</p></div>' +
         startButton("Spaceキーで進む") + '</main>',
       on_load: installStartControls,
       data: { record_type: "instruction", screen: "initial", target: TARGET_WORD }
